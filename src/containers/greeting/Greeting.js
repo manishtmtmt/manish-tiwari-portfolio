@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
+import TypeWriterComponent from "typewriter-effect";
 
 import "./Greeting.scss";
 import landingPerson from "../../assets/lottie/landingPerson";
@@ -25,7 +26,19 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
+                {greeting.title}
+                <TypeWriterComponent
+                  options={{
+                    strings: [
+                      `${greeting.username}`,
+                      "Frontend Developer",
+                      "Backend Developer",
+                      "Fullstack Developer",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p

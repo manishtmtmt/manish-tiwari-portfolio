@@ -69,7 +69,6 @@ if (USE_GITHUB_DATA === "true") {
   const req = https.request(default_options, (res) => {
     let data = "";
 
-    console.log(res, "response");
     console.log(`statusCode: ${res.statusCode}`);
 
     if (res.statusCode !== 200) {
