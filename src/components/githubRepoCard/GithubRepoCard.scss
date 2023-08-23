@@ -43,9 +43,15 @@
   margin-right: 0.75rem;
 }
 
+.repo-name {
+  display: flex;
+  align-items: center;
+}
+
 .repo-name-div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .repo-svg {

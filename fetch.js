@@ -47,6 +47,7 @@ if (USE_GITHUB_DATA === "true") {
                     name
                     color
                   }
+                  homepageUrl
                 }
               }
             }
