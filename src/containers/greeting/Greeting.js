@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 import TypeWriterComponent from "typewriter-effect";
 
 import "./Greeting.scss";
-import landingPerson from "../../assets/lottie/landingPerson";
+import landingPerson from "../../assets/lottie/landingPerson.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
@@ -30,7 +30,7 @@ export default function Greeting() {
                 <TypeWriterComponent
                   options={{
                     strings: [
-                      `${greeting.username}`,
+                      `${greeting.username}`, 
                       "Frontend Developer",
                       "Backend Developer",
                       "Fullstack Developer",

@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1T3Hke7eM3o0zThDGUbhS_T4vxji-27XB/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/15gYg7n4eV3aeQc-fc3c_MPMe2hzPnqxn/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,9 @@ const socialMediaLinks = {
   github: "https://github.com/manishtmtmt",
   linkedin: "https://www.linkedin.com/in/wdmanisht/",
   gmail: "manisht.mt.mt@gmail.com",
+  youtube: "https://www.youtube.com/@webdevyt",
   twitter: "twitter.com/manisht_mt",
+  instagram: "https://www.instagram.com/manishtmtmt/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true, // Set true to display this section, defaults to false
